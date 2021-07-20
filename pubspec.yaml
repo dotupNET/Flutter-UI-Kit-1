@@ -9,6 +9,10 @@ description: A new Flutter project.
 # Read more about versioning at semver.org.
 version: 1.0.1+2
 
+environment:
+  # flutter: ^2.2.0
+  sdk: ">=2.6.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter

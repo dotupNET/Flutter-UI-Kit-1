@@ -214,7 +214,8 @@ class CreditCardPage extends StatelessWidget {
     _context = context;
     cardBloc = CreditCardBloc();
     return Scaffold(
-      resizeToAvoidBottomPadding: true,
+      resizeToAvoidBottomInset: true,
+      // resizeToAvoidBottomPadding: true,
       appBar: AppBar(
         centerTitle: false,
         title: Text("Credit Card"),
